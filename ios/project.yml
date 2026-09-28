@@ -1,0 +1,14 @@
+name: Spoofer
+options:
+  bundleIdPrefix: com.spoofer
+targets:
+  Spoofer:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: 
+      - Spoofer
+    info:
+      path: Spoofer/Info.plist
+      properties:
+        UILaunchScreen: {}
